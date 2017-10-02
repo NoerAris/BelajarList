@@ -9,9 +9,7 @@ import java.util.HashSet;
  */
 public class HashMap {
 int jumlah;
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
 //membuat set
 HashSet set = new HashSet();
