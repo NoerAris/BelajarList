@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package id.co.hashmap;
 
 import java.util.HashSet;
@@ -12,7 +8,7 @@ import java.util.HashSet;
  * @author Aris
  */
 public class HashMap {
-
+int jumlah;
     /**
      * @param args the command line arguments
      */
@@ -27,6 +23,11 @@ set.add("Three");
 set.add("One");
 //tampilkan isi set
 System.out.println(set);
+for(Object o:set){
+    if(o instanceof  String){
+        System.out.println("Tampilkan sorted list : "+o);
+    }
+}
     }
     
 }
